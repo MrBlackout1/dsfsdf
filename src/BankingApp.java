@@ -15,6 +15,7 @@ public class BankingApp {
         double interestRate = scanner.nextDouble();
         InterestAccount interestAccount = new InterestAccount(accountHolder, initialBalance, interestRate);
 
+
         // Основний цикл програми
         int choice;
         do {
